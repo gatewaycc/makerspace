@@ -194,11 +194,17 @@
 /*---------------------------------------------*/
 .m2-txt1 {
   font-family: Poppins-Regular;
-  font-size: 24px;
-  color: #999;
+  font-size: 20px;
+  color: #fff;
   line-height: 1.2;
 }
 
+.m2-txt2 {
+  font-family: Poppins-Medium;
+  font-size: 32px;
+  color: #fff;
+  line-height: 1.2;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -206,10 +212,9 @@
 .l1-txt1 {
   font-family: PaytoneOne;
   font-size: 80px;
-  color: #333;
+  color: #fff;
   line-height: 1.1;
 }
-
 
 /*==================================================================
    SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
@@ -249,7 +254,7 @@
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
-.bg0 {background-color: #fff;}
+.bg0 {background-color: #000;}
 
 .bg-img1 {
   background-position: center;
@@ -524,5 +529,9 @@
 }
 
 a {
-  color: #000000;
+  color: #fff;
+}
+
+a:hover {
+  color: #999999;
 }
